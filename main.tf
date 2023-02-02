@@ -1,5 +1,5 @@
 resource "aws_ssm_parameter" "foo" {
-  name  = "new test"
+  name  = "newtest"
   type  = "String"
-  value = "devops demo"
+  value = "devops-demo"
 }
